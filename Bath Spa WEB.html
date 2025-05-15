@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bath Spa University RAK</title>
+
+  <link rel="stylesheet" href="BSU.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <a href="#" class="logo">BSU</a> 
+    <a href="#home"><i class="fa fa-home"></i> Home</a>
+    <a href="#about"><i class="fa fa-users"></i> About</a>
+    <a href="#course"><i class="fa fa-book"></i> Course</a>
+    <a href="#admission"><i class="fa fa-graduation-cap"></i> Admission</a>
+    <a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="main">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="BSU.mp4" type="video/mp4">
+      </video>
+      <div class="hero-content">
+        <h1>Make your ambitions happen.<br>Make it at Bath Spa.</h1>
+        <p>"Bath Spa University prepares graduates to face life's challenges with complete battle gear."</p>
+        <button onclick="document.getElementById('home').scrollIntoView({behavior: 'smooth'})">
+          Learn more and start today
+        </button>
+      </div>
+    </section>
+
+    <!-- Sections -->
+    <section id="home">
+        <h2 class="centered-heading" style="font-size: 3rem; font-weight: 700;">
+          Bath Spa University Academic Centre RAK
+        </h2>
+      
+        <p class="centered-heading">
+          BSU RAK offers high quality teaching across disciplines, following the UK campus model.
+          It's a leading university for Creativity, Culture, and Enterprise with an innovative curriculum.
+        </p>
+      </section>
+      
+
+      <img src="rak.jpg" alt="RAK Campus" class="no-zoom">
+      <section class="features-section">
+
+        <h2>Why Choose BSU?</h2>
+        <p class="centered-heading">
+          We teach and research across Arts, Sciences, Education, and Business. Creative professionals support our goal to be a leading educational institution in creativity, culture, and enterprise.
+        </p>
+    
+        <div class="features-grid">
+    
+          <div class="feature-card">
+            <div class="feature-icon">🎓</div>
+            <div class="feature-content">
+              <div class="feature-title">Internationally Accredited UK Degree</div>
+              <p class="feature-desc">BSU is part of the UK Quality Assurance Agency, and degrees are issued and administered solely by the UK campus.</p>
+            </div>
+          </div>
+    
+          <div class="feature-card">
+            <div class="feature-icon">📚</div>
+            <div class="feature-content">
+              <div class="feature-title">High Quality British Education</div>
+              <p class="feature-desc">Our strategy focuses on Creativity, Enterprise, Talent, and Enhancements to ensure global education quality.</p>
+            </div>
+          </div>
+    
+          <div class="feature-card">
+            <div class="feature-icon">💸</div>
+            <div class="feature-content">
+              <div class="feature-title">Affordable Fees</div>
+              <p class="feature-desc">Enjoy scholarships and discounts for diverse students from various nationalities based on merit and need.</p>
+            </div>
+          </div>
+    
+          <div class="feature-card">
+            <div class="feature-icon">🌍</div>
+            <div class="feature-content">
+              <div class="feature-title">Transfer Option to UK</div>
+              <p class="feature-desc">Students can transfer and graduate at the UK campus. Full support is provided to ensure a smooth transition.</p>
+            </div>
+          </div>
+        </div>
+        <section id="about">
+          <h2 class="centered-heading">About Bath Spa University RAK</h2>
+    
+          <p class="centered-heading">
+            Explore your passions, follow your dreams and gain skills that <br>help you level up your career. Our University provides you complete support and <br>creates an environment where you will explore your creativity enhanced by enterprise fit for a modern world.
+          </p>
+        <section class="vision-mission-section">
+          <div class="flip-card" onclick="toggleFlip(this)">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h2>VISION</h2>
+              </div>
+              <div class="flip-card-back">
+                <p>Our vision is to become the higher education institution of choice for multinational students, providing quality and affordable British education while promoting creativity, culture, and enterprise.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="flip-card" onclick="toggleFlip(this)">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h2>MISSION</h2>
+              </div>
+              <div class="flip-card-back">
+                <p>We ensure affordable quality education across various disciplines while fostering creativity, culture, and enterprise in partnership with the Bath Spa University UK.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+    <section id="course">
+      <h2>Courses</h2>
+      <h1>Our Courses</h1>
+
+  <div class="course-grid">
+    <div class="course-card">
+      <img src="marketing.png" class="course-image" alt="BA Business & Management HRM/MKT">
+      <div class="course-content">
+        <div class="course-title">BA (Hons) Business & Management (HRM/MKT)</div>
+        <button class="more-btn" onclick="toggleInfo(this)">More Info</button>
+        <div class="course-info">
+          Focuses on human resource management and marketing within a business context. Duration: 3 years.
+          <br>
+          <a class="course-link" href="https://bathspa.ac.ae/all-programmes/ba-business-management/" target="_blank">Go to Course Page</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="Accounting.png" class="course-image" alt="BA Business & Management Accounting">
+      <div class="course-content">
+        <div class="course-title">BA (Hons) Business & Management (Accounting)</div>
+        <button class="more-btn" onclick="toggleInfo(this)">More Info</button>
+        <div class="course-info">
+          Combines core business practices with accounting principles and analysis. Duration: 3 years.
+          <br>
+          <a class="course-link" href="https://bathspa.ac.ae/all-programmes/ba-business-management-accounting/" target="_blank">Go to Course Page</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="media.png" class="course-image" alt="BA Creative Media">
+      <div class="course-content">
+        <div class="course-title">BA (Hons) Creative Media</div>
+        <button class="more-btn" onclick="toggleInfo(this)">More Info</button>
+        <div class="course-info">
+          Blends media production with digital storytelling and visual creativity. Duration: 3 years.
+          <br>
+          <a class="Screenshot 2025-05-15 200314.png" href="https://bathspa.ac.ae/all-programmes/ba-hons-creative-media/" target="_blank">Go to Course Page</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="CC.png" class="course-image" alt="BSc Creative Computing">
+      <div class="course-content">
+        <div class="course-title">BSc (Hons) Creative Computing</div>
+        <button class="more-btn" onclick="toggleInfo(this)">More Info</button>
+        <div class="course-info">
+          Combines computer science with design, coding, and creativity. Duration: 3 years.
+          <br>
+          <a class="Screenshot 2025-05-15 200410.png" href="https://bathspa.ac.ae/all-programmes/bsc-creative-computing/" target="_blank">Go to Course Page</a>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <section id="admission">
+      <h2>Admission</h2>
+      <div class="poster">
+        <div class="poster-header">
+          <img src="BATH.jpeg" alt="Admission Banner">
+        </div>
+        <div class="poster-content">
+          <div class="school-name">Bath Spa University Academic Center</div>
+          <h1>Admission</h1>
+          <h2>Now Open</h2>
+          <div class="website">https://bathspa.ac.ae/</div>
+          <div class="contact">
+            📞 06 7488 432<br>
+            📞 071542265048
+          </div>
+          <div class="social">
+            📘 <a href="#">Bath Spa University</a> | Ras Al Khaimah
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+      <h2>📞 Contact Us</h2>
+      <p>We're here to assist you with any enquiries.</p>
+  
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>📍 International Campus</h3>
+          <p>RAKEZ Academic Zone 3, Block D, 1st Floor,<br>Al Dhait South, Ras Al Khaimah, UAE</p>
+          <p>📞 07 236 9495</p>
+          <p>✉️ <a href="mailto:admissions@bathspa.ae">admissions@bathspa.ae</a></p>
+        </div>
+  
+        <div class="contact-card">
+          <h3>📍 Ajman Admissions Office</h3>
+          <p>4th Floor, Masfout Plaza A, 117/1,<br>Sheikh Rashid Bin Humaid Al Nuaimi St, Ajman</p>
+          <p>📞 06 7488 432</p>
+        </div>
+  
+        <div class="contact-card">
+          <h3>📍 Abu Dhabi Admissions Office</h3>
+          <p>5th Floor, Office 504, Land Mark Plaza,<br>Next to Salama Hospital, Tourist Club Area</p>
+          <p>📞 02 6444 316</p>
+        </div>
+  
+        <div class="contact-card">
+          <h3>📍 FBT Admissions Office (KSA)</h3>
+          <p>1st Floor, Building 6867, Olaya Street,<br>Next to Ministry of Interior, Riyadh, KSA</p>
+          <p>📞 +966 55 0920667</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="BSU.js"></script>
+
+</body>
+</html>
